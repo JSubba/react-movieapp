@@ -203,7 +203,16 @@ h1,
 }
 
 .favorites-section {
+  width: 100%;
   margin-top: 5em;
+  border: 1px solid #f7730799;
+  box-shadow: 5px 5px 7px rgba(247, 115, 7, 0.6);
+}
+
+.favorites-title {
+  width: 100%;
+  text-align: center;
+  padding: 0.3em;
 }
 
 @media screen and (max-width: 600px) {
@@ -231,7 +240,8 @@ h1,
     padding: 4rem 1rem;
   }
 
-  h1 {
+  h1,
+  .favorites-title {
     font-size: 2rem;
   }
 
